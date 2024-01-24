@@ -89,6 +89,12 @@ Je bent verplicht alle velden in te vullen inclusief de privacy ceckbox anders k
 
 -Custom li driehoekvorm ✅
 
+-100% lighthouse test score ✅
+
+-Text op wcag 2 AA (minimaal 2em) ✅
+
+-Pagina is te bedienen doormiddel van de tab toets ✅
+
 **Niet gelukt:**
 
 -Responsive op alle schermformaten ❌
