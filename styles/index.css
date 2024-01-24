@@ -320,14 +320,15 @@
     }
 
     .slider-title p {
-        font-size: 1em;
+        font-size: var(--titleSize);
         margin: 1em 0 0 0.5em;
-        font-family: 'Gilroy-Light', sans-serif
+       font-weight: bold;
     }
 
     .slider-title h2 {
-        font-size: 1em;
+        font-size: var(--titleSize);
         margin: 0 0 0.5em 0.3em;
+        font-weight: lighter;
     }
 
     .example-project-img-container {
@@ -674,6 +675,7 @@ background-color: var(--tertairyColor);
     .title-container p {
         font-size: var(--titleSize);
         font-weight: bold;
+        margin: 1em 0 0 0.5em;
     }
 
     .van-meeuwen-img {
@@ -684,7 +686,6 @@ background-color: var(--tertairyColor);
     .example-project-img-container {
         display: flex;
         flex-direction: row;
-
     }
 
     .example-project-img-container img {
@@ -778,10 +779,9 @@ background-color: var(--tertairyColor);
 
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .how-do-we-do {
         flex-direction: row-reverse;
-
     }
 
     .how-we-do-text-container {
@@ -797,8 +797,6 @@ background-color: var(--tertairyColor);
     .ask-us-img-container {
         display: block;
     }
-
-
 
     .what-do-you-get {
         flex-direction: row;
@@ -829,15 +827,11 @@ background-color: var(--tertairyColor);
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
 
     /*how we do*/
     .how-we-do-text-container {
         width: 100%;
-    }
-
-    .how-do-de-do-empty {
-        padding-left: 40rem;
     }
 
     /*customer review*/
