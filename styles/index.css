@@ -522,7 +522,7 @@ background-color: var(--tertairyColor);
         background-color: var(--secundaryColor);
         display: flex;
         flex-direction: column;
-        padding: 2em 8em;
+        padding: 4em 4em 1em 4em;
         text-align: left;
     }
 
@@ -653,17 +653,31 @@ background-color: var(--tertairyColor);
     }
 
     .slider-title-container {
+
     justify-content: center;
 
 }
 
     .slider-title {
-        margin-right: 11em;
-        margin-left: 6em;
+        display: flex;
+        align-items: center;
+        padding: 30px 50px;
+        justify-content: center;
+
+    }
+
+    .title-container h2 {
+        font-size: var(--textSize);
+        font-weight: lighter;
+    }
+
+    .title-container p {
+        font-size: var(--titleSize);
+        font-weight: bold;
     }
 
     .van-meeuwen-img {
-        max-width: 5%;
+        max-width: 2em;
         padding-left: 5em;
     }
 
