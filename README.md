@@ -34,16 +34,17 @@ Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een k
 ### Desktop view namaken
 Ik heb een figma bestand gekregen met de desktop view. Deze moest vervolgens omgezet worden naar een webpagina.
 
-Oplossing:
-Ik heb eerts de desktop view grondig bestudeerd in figma en heb daarna mijn mobile view omgezet naar de desktop view. Aangezien ik alle secties uit de website in divs heb geplaatst,
-met flex kon ik makkelijk de direction anders zetten, zodat ik de dektop pagina na kon maken.
+**Oplossing:**
+Ik heb eerts de desktop view grondig bestudeerd in figma en heb daarna mijn mobile view omgezet naar de desktop view. 
+Aangezien ik alle secties uit de website in divs heb geplaatst.
+Met flex kon ik makkelijk de direction anders zetten, zodat ik de dektop pagina na kon maken.
 
 ### Mobile view
-Probleem:
+**Probleem:**
 De pagina is al ontworpen voor desktop view, het is de bedoeling dat de site responsive is en ook op mobile te bekijken is, 
 hiervoor moet alles opnieuw ingedeeld worden.
 
-Oplossing:
+**Oplossing:**
 Om de pagina mobile te krijgen heb ik het volgende gedaan:
 - Content onder elkaar laten weergeven met flex column voor een one column layout
 - Afbeeldingen kopje slimmer smeertechnisch heb ik een slider van gemaakt zodat deze op mobile passen
@@ -54,23 +55,27 @@ Om de pagina mobile te krijgen heb ik het volgende gedaan:
 Voor de tablet view heb ik de mobile view gebruikt alleen die een stuk wijder gemaakt en de spacings vergroot.
 
 ## 🖱️ Gebruik
--Algemeen
+**Algemeen:**
+
 Doormiddel van scrollen kun je allemaal informatie over informaat vinden.
 
--Slider functie
+**Slider functie:**
+
 De slider kun je bedienen doormiddel van de pijltjes, hiermee kun je verder of terug gaan, 
 op het moment dat je op de laatste slide bent en je drukt vooralsnog op verder gaan wordt je naar de eerste slide teruggebracht.
 
--Progressbar functie
+**Progressbar functie:**
+
 Je kunt op de progressbar op de 1 2 of 3 knop drukken elke knop laat een nieuwe stap zien, deze staan in chronologische volgorde.
 
--Contact formulier
+**Contact formulier:**
+
 Je kunt doormiddel van de velden je gegevens achterlaten. Met de verstuur knop wordt je bericht verstuurd.
 Je bent verplicht alle velden in te vullen inclusief de privacy ceckbox anders krijg je een melding dat dit nog moet gebeuren.
 
 ## ✅❌Wel gelukt / niet gelukt
 
-Wel gelukt:
+**Wel gelukt:**
 
 -Afgeschuinde hoeken ✅
 
@@ -80,7 +85,7 @@ Wel gelukt:
 
 -Custom li driehoekvorm ✅
 
-Niet gelukt:
+**Niet gelukt:**
 
 -Responsive op alle schermformaten ❌
 

@@ -14,7 +14,6 @@
     --secundaryColor: #ffff;
     --tertairyColor: #D7E6EC;
     --textColor: #000000;
-
     --margin: rem
 }
 
@@ -22,11 +21,11 @@
 
     * {
         font-family: var(--textFont);
+        box-sizing: border-box;
     }
 
     body {
-
-            margin: 0;
+        margin: 0;
             padding: 0;
             width: 100vw;
             height: 100vh;
@@ -75,7 +74,7 @@
         list-style: none;
     }
 
-    .listItems::before {
+    .list-items::before {
         content: "";
         border-color: transparent #111;
         border-style: solid;
@@ -122,23 +121,23 @@
         max-width: 100%;
     }
 
-    .howDoWeDo img{
+    .how-do-we-do img{
         max-width: 100%;
     }
 
     /*first block*/
     /*how do we do properties*/
-    .howDoWeDo {
+    .how-do-we-do {
         display: flex;
         flex-direction: column;
 
     }
-.howDoWeDoEmpty {
+.how-do-de-do-empty {
     display: none;
 }
 
 
-    .howWeDoTextContainer {
+    .how-we-do-text-container {
         background-color: var(--secundaryColor);
         max-width: 80%;
         padding-bottom: 2em;
@@ -146,16 +145,16 @@
         position: relative;
     }
 
-    .howDoWeDo h2 {
+    .how-do-we-do h2 {
         margin-left: 0.5em;
     }
 
-    .howDoWeDo li {
+    .how-do-we-do li {
         margin-left: 2em;
     }
 
 
-    .howWeDoTextContainer::before {
+    .how-we-do-text-container::before {
         content: '';
         position: absolute;
         top: 0;
@@ -167,14 +166,14 @@
         border-color: transparent var(--secundaryColor) transparent transparent;
     }
 
-    .howDoWeDo button{
+    .how-do-we-do button{
         margin-left: 1.1em;
         margin-top: 2em;
     }
 
     /*second block*/
     /**/
-    .customerReviews {
+    .customer-reviews {
         background-color: var(--tertairyColor);
         display: flex;
         flex-direction: column;
@@ -182,7 +181,7 @@
         padding-bottom: 3em;
     }
 
-    .customerReviewsContentContainer {
+    .customer-reviews-content-container {
         display: flex;
         flex-direction: column;
         justify-content: center; /* Voeg deze regel toe om de inhoud in het midden te centreren */
@@ -190,12 +189,12 @@
         width: 80%;
     }
 
-    .customerReviewsImageContainer {
+    .customer-reviews-image-container {
         text-align: center;
         margin-top: 20px;
     }
 
-    .customerReviewsImageContainer img {
+    .customer-reviews-image-container img {
         max-width: 100%;
         height: auto;
         width: 100%;
@@ -203,49 +202,49 @@
 
     /*third block*/
 
-.askUs {
+.ask-us {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-    .askUsImgContainer {
+    .ask-us-img-container {
        margin: 6em;
         display: none;
     }
 
-    .askUsTextContainer {
+    .ask-us-text-container {
         display: flex;
         flex-direction: column;
         margin: 3em;
 
     }
 
-.askUsTextContainer img {
+.ask-us-text-container img {
     width: 15%;
     margin: 6rem;
     display: none;
 }
 
-    .askUsTextContainer ul {
+    .ask-us-text-container ul {
         margin-left: 1rem;
     }
 
     /*fourth block*/
-    .whatDoYouGet {
+    .what-do-you-get {
         display: flex;
         flex-direction: column;
     }
 
-    .whatDoYouGetTextContainer :is(h2) {
+    .what-do-you-get-text-container :is(h2) {
         margin-left: 0.5em;
     }
 
-    .whatDoYouGetTextContainer :is(li) {
+    .what-do-you-get-text-container :is(li) {
         margin-left: 2em;
     }
 
-    .whatDoYouGetTextContainer {
+    .what-do-you-get-text-container {
         background-color: var(--secundaryColor);
         width: 90%;
         padding-bottom: 4em;
@@ -253,7 +252,7 @@
         position: relative;
     }
 
-    .whatDoYouGetTextContainer::before {
+    .what-do-you-get-text-container::before {
         content: '';
         position: absolute;
         top: 0;
@@ -265,7 +264,7 @@
         border-color: transparent var(--secundaryColor) transparent transparent;
     }
 
-    .ourApproach {
+    .our-approach {
         background-color: var(--tertairyColor);
         display: flex;
         flex-direction: column;
@@ -273,18 +272,18 @@
 
     }
 
-.ourApproach .list {
+.our-approach .list {
     display: flex;
     flex-direction: column;
 }
 
-.ourApproachContentBlocks {
+.our-approach-content-blocks {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-    .ourApproachContentBlocks img{
+    .our-approach-content-blocks img{
         max-height: 400px;
     }
 
@@ -297,7 +296,7 @@
         font-size: var(--subTitleSize);
     }
 
-    .ourApproachContentBlocks {
+    .our-approach-content-blocks {
         text-align: center;
         margin: 4em;
         display: flex;
@@ -307,12 +306,12 @@
 
     /*fith block*/
     /*title slider*/
-    .exampleProject {
+    .example-project {
         background-color: var(--secundaryColor);
         padding-bottom: 4em;
     }
 
-    .sliderTitleContainer {
+    .slider-title-container {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -320,23 +319,23 @@
         margin: 0 2em 0 2em;
     }
 
-    .sliderTitle p {
+    .slider-title p {
         font-size: 1em;
         margin: 1em 0 0 0.5em;
         font-family: 'Gilroy-Light', sans-serif
     }
 
-    .sliderTitle h2 {
+    .slider-title h2 {
         font-size: 1em;
         margin: 0 0 0.5em 0.3em;
     }
 
-    .exampleProjectImgContainer {
+    .example-project-img-container {
         display: none;
         max-width: 100%;
     }
 
-    .sliderTitleContainer img {
+    .slider-title-container img {
         max-width: 100%;
     }
 
@@ -388,24 +387,24 @@
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     }
 
-    .exampleProject article {
+    .example-project article {
         margin: 2em 4em 0 4em;
     }
 
-    .exampleProject li {
+    .example-project li {
         margin: 2em;
     }
 
     /*How we start*/
     /*progress function*/
-    .howWeStart {
+    .how-we-start {
         display: flex;
         flex-direction: column;
         align-items: center;
 background-color: var(--tertairyColor);
     }
 
-    .progressBar {
+    .progress-bar {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -429,7 +428,7 @@ background-color: var(--tertairyColor);
         color: var(--secundaryColor);
     }
 
-    .progressBar button {
+    .progress-bar button {
         padding: 1em;
         border-radius: 50%;
         font-size: var(--titleSize);
@@ -459,19 +458,19 @@ background-color: var(--tertairyColor);
         color: var(--secundaryColor);
     }
 
-    .howWeStart figure {
+    .how-we-start figure {
         background-color: var(--secundaryColor);
 
 
     }
 
-    .progressBarBlocks {
+    .progress-bar-blocks {
         display: flex;
         flex-direction: row;
         max-width: 100%;
     }
 
-    .progressBarContentBlock {
+    .progress-bar-content-block {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -481,24 +480,24 @@ background-color: var(--tertairyColor);
         max-width: 30%;
     }
 
-    .howWeStartImg {
+    .how-we-start-img {
         max-width: 50%;
     }
 
-    .progressBarButtonImg {
+    .progress-bar-button-img {
         width: 20%;
         margin-top: 0.2em;
     }
 
-    .progressBarContentBlock h2 {
+    .progress-bar-content-block h2 {
         font-size: 2em; /* Pas de gewenste grootte aan */
     }
 
-    .progressBarContentBlock p {
+    .progress-bar-content-block p {
         font-size: 3em; /* Pas de gewenste grootte aan */
     }
 
-    .progressBarContentBlock button {
+    .progress-bar-content-block button {
         font-size: 2.5em; /* Pas de gewenste grootte aan */
         display: flex;
         flex-direction: row;
@@ -506,15 +505,15 @@ background-color: var(--tertairyColor);
         width: 35%;
     }
 
-.howWeStartImgContainer {
+.how-we-start-img-container {
     display: none;
 }
 
-    .howWeStartText {
+    .how-we-start-text {
         margin: 0 4em 4em 4em;
     }
 
-    .howWeStartText li {
+    .how-we-start-text li {
         margin-left: -1em;
     }
 
@@ -531,12 +530,12 @@ background-color: var(--tertairyColor);
         margin: 1em 1em 1em -1em;
     }
 
-    .talkLinkedin img {
+    .talk-linkedin img {
         width: 6%
 
     }
 
-    .talkLinkedin {
+    .talk-linkedin {
         display: flex;
         flex-direction: column;
     }
@@ -583,7 +582,7 @@ background-color: var(--tertairyColor);
 
 /*responsive*/
 @media (min-width: 900px)  {
-    .whatDoYouGetTextContainer::before {
+    .what-do-you-get-text-container::before {
         content: '';
         position: absolute;
         top: 0;
@@ -596,16 +595,11 @@ background-color: var(--tertairyColor);
     }
 
 
-    .ourApproach .list {
+    .our-approach .list {
         flex-direction: row;
         margin-left: 15rem;
         margin-right: 15rem;
     }
-
-
-
-
-
 
     form {
         font-size: 2em;
@@ -619,43 +613,38 @@ background-color: var(--tertairyColor);
     textarea {
         font-size: 0.8em;
     }
-
-
-
-
-
 }
 
 @media (min-width: 1400px)  {
 
-    .customerReviewsContentContainer{
+    .customer-reviews-content-container{
         margin-left: 0;
         margin-right: 22rem;
     }
 
-    .customerReviewsContentContainer img{
+    .customer-reviews-content-container img{
         margin-left: 0;
         margin-right: 22rem;
         width: 35%;
     }
 
     /*ask us*/
-    .askUsImgContainer {
+    .ask-us-img-container {
         text-align: center;
     }
 
-    .askUsTextContainer {
+    .ask-us-text-container {
         justify-content: center;
     }
 
-    .askUsTextContainer img {
+    .ask-us-text-container img {
         display: block;
     }
 
 /*example projects*/
 
 
-    .exampleProjectText{
+    .example-project-text{
         display: flex;
         flex-direction: row;
         margin-left: 35rem ;
@@ -663,28 +652,28 @@ background-color: var(--tertairyColor);
 
     }
 
-    .sliderTitleContainer {
+    .slider-title-container {
     justify-content: center;
 
 }
 
-    .sliderTitle {
+    .slider-title {
         margin-right: 11em;
         margin-left: 6em;
     }
 
-    .vanMeeuwenImg {
+    .van-meeuwen-img {
         max-width: 5%;
         padding-left: 5em;
     }
 
-    .exampleProjectImgContainer {
+    .example-project-img-container {
         display: flex;
         flex-direction: row;
 
     }
 
-    .exampleProjectImgContainer img {
+    .example-project-img-container img {
         width: 30%;
 
     }
@@ -698,43 +687,43 @@ background-color: var(--tertairyColor);
     }
 
 /*how we start / progressbar*/
-    .howWeStartContainer {
+    .how-we-start-container {
         background-color: pink;
         width: 100%;
         height: 100%;
     }
 
-    .progressBarContentBlock p {
+    .progress-bar-content-block p {
         font-size: var(--textSize);
     }
 
-    .howWeStartContainer img {
+    .how-we-start-container img {
         width: 20%;
     }
 
-    .progressBar {
+    .progress-bar {
         display: none;
     }
 
-    .progressBarContentBlock {
+    .progress-bar-content-block {
         display: none;
     }
 
-    .howWeStart {
+    .how-we-start {
         margin-left: 1em;
         margin-right: 1em;
         padding: 1em;
     }
-    .howWeStartImgContainer {
+    .how-we-start-img-container {
     display: flex;
         flex-direction: row;
     }
 
-    .howWeStartImgContainer img {
+    .how-we-start-img-container img {
   width: 100%;
     }
 
-    .howeStartContentBlock {
+    .how-we-start-content-block {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -746,7 +735,7 @@ background-color: var(--tertairyColor);
 
 
 /*talk and form*/
-    .talkAndContactContainer {
+    .talk-and-contact-container {
         display: flex;
         flex-direction: row-reverse;
         width: 100%;
@@ -776,33 +765,33 @@ background-color: var(--tertairyColor);
 
 }
 @media (min-width: 1200px) {
-    .howDoWeDo {
+    .how-do-we-do {
         flex-direction: row-reverse;
 
     }
 
-    .howWeDoTextContainer {
+    .how-we-do-text-container {
         width: 100%;
     }
 
-    .howDoWeDoEmpty {
+    .how-do-de-do-empty {
         display: block;
         padding-left: 7rem;
     }
 
     /*ask us*/
-    .askUsImgContainer {
+    .ask-us-img-container {
         display: block;
     }
 
 
 
-    .whatDoYouGet {
+    .what-do-you-get {
         flex-direction: row;
 
     }
 
-    .whatDoYouGetTextContainer {
+    .what-do-you-get-text-container {
         width: 100%;
     }
 
@@ -817,11 +806,11 @@ background-color: var(--tertairyColor);
 @media (min-width: 2200px) {
 
 
-    .howWeDoTextContainer {
+    .how-we-do-text-container {
         width: 100%;
     }
 
-    .howDoWeDoEmpty {
+    .how-do-de-do-empty {
         padding-left: 30rem;
     }
 }
@@ -829,16 +818,16 @@ background-color: var(--tertairyColor);
 @media (min-width: 800px) {
 
     /*how we do*/
-    .howWeDoTextContainer {
+    .how-we-do-text-container {
         width: 100%;
     }
 
-    .howDoWeDoEmpty {
+    .how-do-de-do-empty {
         padding-left: 40rem;
     }
 
     /*customer review*/
-    .customerReviewsContentContainer {
+    .customer-reviews-content-container {
         margin-left: 40rem;
     }
 
