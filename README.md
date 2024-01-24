@@ -1,18 +1,22 @@
 # 🛬 Informaat Landingspagina
-screenshot
+![image](https://github.com/Daan645/the-startup-responsive-interactieve-website/assets/54812898/3762b648-b8cd-4ab1-8e68-a57d94b40ed0)
 
 Dit document geeft een overzicht van het Informaat Landingspagina Project, uitgevoerd voor Informaat, een ontwerpbureau gespecialiseerd in het bouwen van websites.
 
 ## 📚 Inhoudsopgave
-
-* [Beschrijving](#beschrijving)
+* [Opdracht](#opdracht)
 * [Opdrachtgever](#opdrachtgever)
 * [Kenmerken](#kenmerken)
-* [Installatie](#installatie)
+* [Ontwerp probleem en oplossing](#ontwerpprobleemenoplossing)
 * [Gebruik](#gebruik)
+* [Wel gelukt / niet gelukt](#welgelukt/nietgelukt)
+* [Installatie](#installatie)
 * [Licentie](#licentie)
 
-## 🏗️ Opdrachtgever
+## 🏗️ Opdracht
+Ik kreeg van Informaat de opdracht om een bestaand ontwerp (desktop versie) van een landingspagina na te bouwen, en hier zelf een mobile versie voor te maken.
+
+## 👷‍♂️Opdrachtgever
 De opdracht is voor het ontwerpbureau Informaat. Informaat ontwerpt/bouwt websites en richt zich vooral op grotere klanten.
 
 ## ⚡ Kenmerken
