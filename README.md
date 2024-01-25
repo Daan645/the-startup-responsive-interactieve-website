@@ -35,14 +35,6 @@ Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een k
 
 ## 🚀 Ontwerp probleem en oplossing
 
-### Desktop view namaken
-Ik heb een figma bestand gekregen met de desktop view. Deze moest vervolgens omgezet worden naar een webpagina.
-
-**Oplossing:**
-Ik heb eerts de desktop view grondig bestudeerd in figma en heb daarna mijn mobile view omgezet naar de desktop view. 
-Aangezien ik alle secties uit de website in divs heb geplaatst.
-Met flex kon ik makkelijk de direction anders zetten, zodat ik de dektop pagina na kon maken.
-
 ### Mobile view
 **Probleem:**
 De pagina is al ontworpen voor desktop view, het is de bedoeling dat de site responsive is en ook op mobile te bekijken is, 
@@ -54,6 +46,16 @@ Om de pagina mobile te krijgen heb ik het volgende gedaan:
 - Afbeeldingen kopje slimmer smeertechnisch heb ik een slider van gemaakt zodat deze op mobile passen
 - Stappen plan interactie gemaakt met progressbar voor de sectie dit is hoe we beginnen
 - contact formulier en samenwerken onderelkaar gezet.
+
+
+### Desktop view namaken
+Ik heb een figma bestand gekregen met de desktop view. Deze moest vervolgens omgezet worden naar een webpagina.
+
+**Oplossing:**
+Ik heb eerts de desktop view grondig bestudeerd in figma en heb daarna mijn mobile view omgezet naar de desktop view. 
+Aangezien ik alle secties uit de website in divs heb geplaatst.
+Met flex kon ik makkelijk de direction anders zetten, zodat ik de dektop pagina na kon maken.
+
 
 ### Tablet view
 Voor de tablet view heb ik de mobile view gebruikt alleen die een stuk wijder gemaakt en de spacings vergroot.
@@ -94,6 +96,7 @@ Je bent verplicht alle velden in te vullen inclusief de privacy ceckbox anders k
 -Text op wcag 2 AA (minimaal 2em) ✅
 
 -Pagina is te bedienen doormiddel van de tab toets ✅
+
 
 **Niet gelukt:**
 
