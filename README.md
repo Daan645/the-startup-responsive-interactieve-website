@@ -97,6 +97,7 @@ Je bent verplicht alle velden in te vullen inclusief de privacy ceckbox anders k
 
 -Pagina is te bedienen doormiddel van de tab toets ✅
 
+-Maximaal aantal karakters op een zin 60 voor een betere leesbaarheid ✅
 
 **Niet gelukt:**
 
