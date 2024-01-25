@@ -93,7 +93,7 @@ Je bent verplicht alle velden in te vullen inclusief de privacy ceckbox anders k
 
 -100% lighthouse test score ✅
 
--Text op wcag 2 AA (minimaal 2em) ✅
+-Text op wcag 2 AA (minimaal 1em / 16px) ✅
 
 -Pagina is te bedienen doormiddel van de tab toets ✅
 
